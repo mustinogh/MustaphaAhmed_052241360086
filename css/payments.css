@@ -1,0 +1,259 @@
+/* Reset styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(110, 87, 22);
+    color: white;
+    padding: 10px;
+  }
+  
+  .logo img {
+    height: 60px;
+    width: auto;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .a-b {
+    margin-right: 20px;
+  }
+  
+  .a-c form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .a-c input[type="text"],
+  .a-c button {
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: rgb(44, 9, 77);
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  /* Navigation Menu Styles */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(44, 9, 77);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  ul li {
+    float: left;
+  }
+  
+  ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+   color: rgb(110, 87, 22);
+  }
+  /* Dropdown button */
+.dropbtn {
+  color: white;
+  padding: 14px 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn:hover{
+  background-color: rgb(145, 208, 233);
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(110, 87, 22);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(223, 219, 27, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  color: rgb(235, 232, 226);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* show the payment form */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(189, 248, 228);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: rgba(206, 203, 20, 0.432);
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid rgb(77, 77, 247);
+}
+.container:hover{
+  scale: 1.15;
+}
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.buttons {
+  background-color: rgb(44, 9, 77);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+.special-box {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.special-box img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.special-box h2 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.special-box p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.contact-us {
+  margin-right: 20px;  
+  color: white;  
+  font-size: 14px;  
+  line-height: 1.5;  
+}
+.contact-us p {
+  margin: 0;  
+}
+.contact-us a{
+  text-decoration: none;
+}
+/* Footer Styles */
+footer {
+  padding: 0px;
+  position: flex;
+}
+
+.footer-content {
+  background-color: rgb(44, 9, 77);
+  padding: 50px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-footer img {
+  width: 100px;  
+}
+
+.right-footer {
+  position: relative;
+}
+
+#search-form-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#SearchFooter {
+  width: 200px;  
+  padding: 5px;
+  margin-bottom: 5px;  
+}
+
+#search-form-footer button {
+  padding: 8px 16px; 
+  background-color: rgb(110, 87, 22);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.copy{
+  background-color: rgb(110, 87, 22);
+  padding: 10px;
+  text-align: center;
+  color: rgb(253, 248, 248);
+  position: flex;
+}
+/* Media Query for responsiveness */
+@media screen and (max-width: 600px) {
+  header h1 {
+    font-size: 20px;
+  }
+  
+  body {
+    min-height: auto;  
+  }
+}
+

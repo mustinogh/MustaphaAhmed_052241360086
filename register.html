@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Website</title>
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/kstu_logo.png" alt="KSTU Logo">
+        </div>
+        <div class="header-content">
+            <div class="a-b">
+                <h1>FACULTY OF APPLIED SCIENCE AND TECHNOLOGY</h1>
+            </div>
+            <div class="a-c">
+                <form action="#" method="GET" id="search-form">
+                    <input type="text" name="search" id="Search" placeholder="">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="departments.html">DEPARTMENTS</a></li>
+            <li><a href="timetables.html">STUDENTS TIMETABLES</a></li>
+            <li class="dropdown">
+                <button class="dropbtn">STUDENTS</button>
+                <div class="dropdown-content">
+                    <a href="register.html">REGISTER</a>
+                    <a href="payments.html">PAY DUES</a>
+                </div>
+            </li>
+        </ul>
+    <div class="registration">
+        <div class="container">
+            <div class="registration-form">
+                <form action="#" method="POST" enctype="multipart/form-data">
+                    <label for="studentNumber">Student Number:</label><br>
+                    <input type="text" id="studentNumber" name="studentNumber" required><br>
+
+                    <label for="firstName">First Name:</label><br>
+                    <input type="text" id="firstName" name="firstName" required><br>
+
+                    <label for="lastName">Last Name:</label><br>
+                    <input type="text" id="lastName" name="lastName" required><br>
+
+                    <label for="dob">Date of Birth:</label><br>
+                    <input type="date" id="dob" name="dob" required><br>
+
+                    <label for="faculty">Faculty:</label><br>
+                    <input type="text" id="faculty" name="faculty" required><br>
+
+                    <label for="department">Department:</label><br>
+                    <input type="text" id="department" name="department" required><br>
+
+                    <label for="telephone">Telephone Number:</label><br>
+                    <input type="tel" id="telephone" name="telephone" required><br>
+
+                    <label for="address">Address:</label><br>
+                    <textarea id="address" name="address" required></textarea><br>
+
+                    <label for="picture">Upload Picture:</label><br>
+                    <input type="file" id="picture" name="picture" accept="image/*" required><br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="left-footer">
+                <img src="images/kstu_logo.png" alt="KSTU Logo">
+                <p>FACULTY OF APPLIED <br> SCIENCE AND TECHNOLOGY</p>
+            </div>
+            <div class="contact-us">
+                <p>CONTACT US</p>
+                <p>TEL : <a href="">(+233)0201822460</a></p>
+                <P>EMAIL US : <a href="">ahmedmustapha6223@gmail.com</a></P>
+            </div>
+            <div class="right-footer">
+                <form action="#" method="GET" id="search-form-footer">
+                    <input type="text" name="search" id="SearchFooter" placeholder="">
+                    <button type="submit">SEARCH</button>
+                </form>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy; 2024 Faculty Website(by AHMED MUSTAPHA). All rights reserved.</p>
+        </div>
+    </footer> 
+</body>
+</html>
+
